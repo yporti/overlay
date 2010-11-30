@@ -22,11 +22,11 @@ BASIS="libobasis${MY_PVM2}"
 if [ "${ARCH}" = "amd64" ] ; then
 	LOARCH="x86_64"
 	UP="LibO_${MY_PV2}_Linux_x86-64_install-rpm_en-US/RPMS"
-	LANGP="LibO_${MY_PV2}_Linux_x86-64_langpack-rpm_"
+	LANGP="LibO_${MY_PV2}_Linux_x86-64_install-rpm_"
 else
 	LOARCH="i586"
 	UP="LibO_${MY_PV2}_Linux_x86_install-rpm_en-US/RPMS"
-	LANGP="LibO_${MY_PV2}_Linux_x86_langpack-rpm_"
+	LANGP="LibO_${MY_PV2}_Linux_x86_install-rpm_"
 fi
 
 FILEPATH="http://download.documentfoundation.org/libreoffice/testing/${MY_PV1}/rpm"
