@@ -1,0 +1,10 @@
+# ChangeLog for app-dicts/myspell-pt-br
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*myspell-pt-br-20101030 (30 Nov 2010)
+
+  30 Nov 2010; Bruno Yporti <bruno@yporti.com> +myspell-pt-br-20101030.ebuild,
+  +files/dictionary.lst.ptbr, +metadata.xml:
+  Initial import from gentoo-br overlay and bump to latest version.
+
