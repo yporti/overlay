@@ -11,7 +11,7 @@ MY_PN="${PN/-bin}"
 MY_P="${MY_PN}-${MY_PV}"
 
 DESCRIPTION="Firefox Web Browser"
-FDATE="2011-08-13-03-07-46"
+FDATE="2011-08-14-03-07-49"
 SRC_URI="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/${FDATE}-mozilla-central/${MY_P}.en-US.linux-x86_64.tar.bz2 -> ${MY_PN}_${FDATE}.tar.bz2"
 HOMEPAGE="http://www.mozilla.com/firefox"
 RESTRICT="strip mirror"
