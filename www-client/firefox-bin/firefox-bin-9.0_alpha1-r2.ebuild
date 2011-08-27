@@ -4,16 +4,16 @@
 
 EAPI="3"
 
-inherit eutils mozilla-launcher multilib mozextension
+inherit eutils mozilla-launcher multilib mozextension pax-utils
 
 MY_PV="${PV/_alpha/a}"
 MY_PN="${PN/-bin}"
 MY_P="${MY_PN}-${MY_PV}"
 
 DESCRIPTION="Firefox Web Browser"
-KEYWORDS="-* ~amd64 ~x86"
+KEYWORDS="~amd64 ~x86"
 
-FDATE="2011-08-23-03-08-04"
+FDATE="2011-08-27-03-08-01"
 SRC_URI="amd64? ( http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/${FDATE}-mozilla-central/${MY_P}.en-US.linux-x86_64.tar.bz2 -> ${MY_PN}_${FDATE}-x86_64.tar.bz2 )
 	 x86? ( http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/${FDATE}-mozilla-central/${MY_P}.en-US.linux-i686.tar.bz2 -> ${MY_PN}_${FDATE}-i686.tar.bz2 )"
 HOMEPAGE="http://www.mozilla.com/firefox"
@@ -77,6 +77,12 @@ src_install() {
 
 	ln -sfn "/usr/$(get_libdir)/nsbrowser/plugins" \
 			"${D}${MOZILLA_FIVE_HOME}/plugins" || die
+
+	pax-mark -mr "${D}${MOZILLA_FIVE_HOME}"/crashreporter
+	pax-mark -mr "${D}${MOZILLA_FIVE_HOME}"/firefox
+	pax-mark -mr "${D}${MOZILLA_FIVE_HOME}"/firefox-bin
+	pax-mark -mr "${D}${MOZILLA_FIVE_HOME}"/plugin-container
+	pax-mark -mr "${D}${MOZILLA_FIVE_HOME}"/updater
 }
 
 pkg_postinst() {
