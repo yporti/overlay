@@ -12,7 +12,7 @@ SRC_URI="http://www.broffice.org/files/pt_BR-2011-05-27AOC.zip
 	http://www.broffice.org/files/hyph_pt_BR-209.zip
 	http://www.broffice.org/files/acor_pt-BR-208.zip"
 
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="app-arch/unzip
