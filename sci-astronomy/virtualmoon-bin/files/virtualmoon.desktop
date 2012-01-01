@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Virtual Moon Atlas
+Type=Application
+Comment=Virtual Moon Atlas
+Exec=atlun
+TryExec=atlun
+Icon=virtualmoon
+Categories=Education;Science;Astronomy;

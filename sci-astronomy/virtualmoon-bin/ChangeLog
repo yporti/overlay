@@ -1,0 +1,11 @@
+# ChangeLog for sci-astronomy/virtualmoon-bin
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*virtualmoon-bin-5.1 (01 Jan 2012)
+
+  01 Jan 2012; <yporti@gentoo.org> +virtualmoon-bin-5.1.ebuild, +files/atlun,
+  +files/datlun, +files/photlun, +files/virtualmoon.desktop,
+  +files/virtualmoon.png:
+  Initial import from monoid.
+
