@@ -19,11 +19,12 @@ SRC_URI="
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="-* amd64 x86"
-IUSE=""
+IUSE="xplanet"
 
 RESTRICT="strip"
 
-RDEPEND=">=x11-libs/gtk+-2.0"
+RDEPEND=">=x11-libs/gtk+-2.0
+	xplanet? ( x11-misc/xplanet )"
 S="${WORKDIR}/skychart"
 
 src_unpack() {

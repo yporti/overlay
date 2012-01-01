@@ -6,4 +6,7 @@
 	<email>bruno@yporti.com</email>
 </maintainer>
 <longdescription>Free software to draw skycharts.</longdescription>
+<use>
+	<flag name='xplanet'>Enable planet realistic view capability.</flag>
+</use>
 </pkgmetadata>
