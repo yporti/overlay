@@ -1,6 +1,9 @@
 # ChangeLog for www-client/firefox-bin
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Jan 2012; <yporti@gentoo.org> firefox-bin-12.0_alpha1.ebuild:
+  Version bump and drop ~x86 keyword.
 
 *firefox-bin-12.0_alpha1 (28 Dec 2011)
 
