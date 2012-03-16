@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -11,10 +11,10 @@ MY_PV=$(replace_version_separator 2 -)
 DESCRIPTION="Free software to draw sky charts"
 HOMEPAGE="http://www.ap-i.net/skychart/"
 SRC_URI="
-	x86? ( http://download.origo.ethz.ch/${MY_PN}/3239/${MY_PN}-${MY_PV}-linux_i386.tar.bz2 )
-	amd64? ( http://download.origo.ethz.ch/${MY_PN}/3239/${MY_PN}-${MY_PV}-linux_x86_64.tar.bz2 )
-	http://download.origo.ethz.ch/skychart/2081/skychart-data-stars-3.1-1466.noarch.rpm
-	http://download.origo.ethz.ch/skychart/2080/skychart-data-dso-3.1-1466.noarch.rpm"
+	x86? ( mirror://sourceforge/skychart/${MY_PN}-${MY_PV}-linux_i386.tar.bz2 )
+	amd64? ( mirror://sourceforge/skychart/${MY_PN}-${MY_PV}-linux_x86_64.tar.bz2 )
+	mirror://sourceforge/skychart/skychart-data-stars-3.1-1466.noarch.rpm
+	mirror://sourceforge/skychart/skychart-data-dso-3.1-1466.noarch.rpm"
 
 LICENSE="GPL-2"
 SLOT="0"
