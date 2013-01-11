@@ -1,6 +1,12 @@
 # ChangeLog for www-client/firefox-bin
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*firefox-bin-21.0_alpha1 (11 Jan 2013)
+
+  11 Jan 2013; <yporti@gentoo.org> -firefox-bin-19.0_alpha1.ebuild,
+  +firefox-bin-21.0_alpha1.ebuild:
+  Version bump.
 
   16 Nov 2012; <yporti@gentoo.org> files/10firefox-bin,
   files/chrome/default16.png, files/chrome/default32.png,
